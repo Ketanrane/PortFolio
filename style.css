@@ -1,8 +1,73 @@
-{
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
+/* Body Styling */
+body {
+  font-family: "Poppins", Arial, sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+  line-height: 1.6;
+  text-align: center;
+  padding: 20px;
+}
 
+/* Main Heading */
+h1 {
+  font-size: 2.5rem;
+  color: #222;
+  margin-bottom: 10px;
+}
 
+/* Subheading */
+h2 {
+  font-size: 1.5rem;
+  margin: 20px 0 10px;
+  color: #444;
+}
 
+/* Horizontal Line */
+hr {
+  width: 80%;
+  margin: 25px auto;
+  border: 1px solid #ccc;
+}
 
+/* Image Styling */
+img {
+  border-radius: 10px;
+  margin-top: 10px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
 
+img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Links */
+a {
+  color: #0078ff;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+a:hover {
+  color: #0056b3;
+  text-decoration: underline;
+}
+
+/* Footer Links Section */
+a[href*="public"] {
+  display: inline-block;
+  margin: 10px 15px;
+  font-weight: 500;
+  color: #0078ff;
+}
+
+a[href*="public"]:hover {
+  color: #0056b3;
 }
