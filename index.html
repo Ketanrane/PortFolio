@@ -7,15 +7,50 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>Ketan's PortFolio </h1>
+   <header>
+    <nav class="navbar">
+      <h1 class="logo">Ketan's Portfolio</h1>
+      <ul class="nav-links">
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="./public/about.html">About</a></li>
+        <li><a href="./public/contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  <!-- END NEW -->
 
+  <!-- 🌟 NEW: Hero Section -->
+  <section class="hero">
     <h2>I'm a Full-Stack Developer</h2>
-    <hr>
-    <h2><a href="./assets/images/Movie-ranking.png">Movie Ranking Project</a></h2>
-    <img src="./assets/images/Movie-ranking.png" alt="Movie Ranking" height="200">
+    <p>Building modern and user-friendly websites using HTML, CSS, JavaScript, and more.</p>
+    <a href="#projects" class="btn">View My Work</a>
+  </section>
+  <!-- END NEW -->
 
-    <h2><a href="./assets/images/Birthday-Invite.png">Birthday Invite Project</a></h2>
-    <img src="./assets/images/Birthday-Invite.png" alt="Birthday Invitation" height="200">
+  <hr>
+
+  <!-- 🧱 PROJECTS SECTION -->
+  <!-- NEW: Wrapped your projects inside a section with class and id -->
+  <section id="projects" class="projects-section">
+    <h2>My Projects</h2>
+
+    <div class="projects">
+      <div class="project-card">
+        <a href="./assets/images/Movie-ranking.png" target="_blank">
+          <img src="./assets/images/Movie-ranking.png" alt="Movie Ranking Project">
+        </a>
+        <h3>Movie Ranking Project</h3>
+      </div>
+
+      <div class="project-card">
+        <a href="./assets/images/Birthday-Invite.png" target="_blank">
+          <img src="./assets/images/Birthday-Invite.png" alt="Birthday Invite Project">
+        </a>
+        <h3>Birthday Invite Project</h3>
+      </div>
+    </div>
+  </section>
 
    
 <section id="skills" class="skills-section">
@@ -40,11 +75,17 @@
   </div>
 </section>
 
-    
     <hr>
     <a href="./public/about.html">About Me</a>
     <a href="./public/contact.html">Contact Me</a>
-
+ <footer>
+    <p>© 2025 Ketan Rane | Full-Stack Developer</p>
+    <div class="social-icons">
+      <a href="#" class="icon">🐦</a>
+      <a href="#" class="icon">💼</a>
+      <a href="#" class="icon">📸</a>
+    </div>
+  </footer>
 
 </body>
 </html>
